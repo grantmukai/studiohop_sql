@@ -16,28 +16,28 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `appslangstitles`
+-- Table structure for table `appslangs2`
 --
 
-DROP TABLE IF EXISTS `appslangstitles`;
+DROP TABLE IF EXISTS `appslangs2`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `appslangstitles` (
+CREATE TABLE `appslangs2` (
   `id` int(4) DEFAULT NULL,
-  `section` int(1) DEFAULT NULL,
-  `title` longtext,
-  `language` varchar(5) DEFAULT NULL
+  `subject` longtext,
+  `language` varchar(5) DEFAULT NULL,
+  `level` int(1) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `appslangstitles`
+-- Dumping data for table `appslangs2`
 --
 
-LOCK TABLES `appslangstitles` WRITE;
-/*!40000 ALTER TABLE `appslangstitles` DISABLE KEYS */;
-INSERT INTO `appslangstitles` VALUES (2000,2,'Adobe Creative Suite','en-US'),(3000,3,'Content Management','en-US'),(4000,4,'Operating Systems','en-US'),(5000,5,'Servers','en-US'),(6000,6,'<br />','en-US'),(7000,7,'Scripting Languages','en-US'),(8000,8,'Spoken Languages','en-US'),(1000,1,'Email marketing','en-US');
-/*!40000 ALTER TABLE `appslangstitles` ENABLE KEYS */;
+LOCK TABLES `appslangs2` WRITE;
+/*!40000 ALTER TABLE `appslangs2` DISABLE KEYS */;
+INSERT INTO `appslangs2` VALUES (1000,'English','en-US',5),(1500,'French','en-US',5),(2000,'Spanish','en-US',3),(2500,'Constant Contact','en-US',5),(3000,'Adobe Photoshop','en-US',3),(3500,'Adobe InDesign','en-US',3),(4000,'Adobe Premiere','en-US',4),(4500,'WordPress','en-US',4),(5000,'Drupal','en-US',2),(5500,'Apache','en-US',5),(6000,'Microsoft IIS','en-US',2),(6500,'Microsoft SQL Server','en-US',3),(7000,'HTML5/CSS3','en-US',5),(7500,'PHP5','en-US',5),(8000,'MySQL','en-US',5),(8500,'Adobe ColdFusion','en-US',1);
+/*!40000 ALTER TABLE `appslangs2` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -49,4 +49,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2015-11-01 11:28:48
+-- Dump completed on 2015-11-02 12:17:35
