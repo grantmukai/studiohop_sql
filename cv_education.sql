@@ -41,7 +41,7 @@ CREATE TABLE `education` (
 
 LOCK TABLES `education` WRITE;
 /*!40000 ALTER TABLE `education` DISABLE KEYS */;
-INSERT INTO `education` VALUES (1000,'Boston University College of Communication',' B.Sc.','Broadcast Journalism','Minor','French Language &amp; Literature','2006-09-02','2010-05-10','en-US'),(2000,'Universit&eacute; de Boston, &Eacute;cole de Communications','B.Sc.','journalisme t&eacute;l&eacute;vis&eacute;','Mineur','langue et litt&eacute;rature fran&ccedil;aise','2006-09-02','2010-05-10','fr-CA'),(3000,'Boston University, College of Communications',' B.Sc.','Broadcast Journalism','Minor','French Language &amp; Literature','2006-09-02','2010-05-10','en-CA'),(4000,'Universidad de Boston, Escuela de Comunicaciones','Baccillerato en Ciencias','Periodismo Televisado','Menor','Lengua y Literatura Francesa','2006-09-02','2010-05-10','es-MX'),(1000,'Universit&eacute; de Boston, &Eacute;cole de Communications','BAC+4','journalisme t&eacute;l&eacute;vis&eacute;','Sp&eacute;cialisation','langue et litt&eacute;rature fran&ccedil;aise','2006-09-02','2010-05-10','fr-FR'),(1000,'Boston University College of Communication',' B.SC.','Broadcast Journalism','Academic Minor','French Language &amp; Literature','2006-09-02','2010-05-10','en-IE');
+INSERT INTO `education` VALUES (1000,'Boston University, College of Communication',' B.Sc.','Broadcast Journalism','Minor','French Language &amp; Literature','2006-09-02','2010-05-10','en-US'),(2000,'Universit&eacute; de Boston, &Eacute;cole de Communications','B.Sc.','journalisme t&eacute;l&eacute;vis&eacute;','Mineur','langue et litt&eacute;rature fran&ccedil;aise','2006-09-02','2010-05-10','fr-CA'),(3000,'Boston University, College of Communications',' B.Sc.','Broadcast Journalism','Minor','French Language &amp; Literature','2006-09-02','2010-05-10','en-CA'),(4000,'Universidad de Boston, Escuela de Comunicaciones','Baccillerato en Ciencias','Periodismo Televisado','Menor','Lengua y Literatura Francesa','2006-09-02','2010-05-10','es-MX'),(1000,'Universit&eacute; de Boston, &Eacute;cole de Communications','BAC+4','journalisme t&eacute;l&eacute;vis&eacute;','Sp&eacute;cialisation','langue et litt&eacute;rature fran&ccedil;aise','2006-09-02','2010-05-10','fr-FR'),(1000,'Boston University College of Communication',' B.SC.','Broadcast Journalism','Academic Minor','French Language &amp; Literature','2006-09-02','2010-05-10','en-IE');
 /*!40000 ALTER TABLE `education` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -54,4 +54,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2015-11-07 23:29:15
+-- Dump completed on 2015-12-12  0:30:56
