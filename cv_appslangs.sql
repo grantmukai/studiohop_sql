@@ -2,7 +2,7 @@
 --
 -- Host: localhost    Database: cv
 -- ------------------------------------------------------
--- Server version	5.6.27
+-- Server version	5.6.28
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -50,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2015-11-29 19:01:42
+-- Dump completed on 2015-12-15 19:19:07

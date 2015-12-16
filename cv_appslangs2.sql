@@ -2,7 +2,7 @@
 --
 -- Host: localhost    Database: cv
 -- ------------------------------------------------------
--- Server version	5.6.27
+-- Server version	5.6.28
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -36,7 +36,7 @@ CREATE TABLE `appslangs2` (
 
 LOCK TABLES `appslangs2` WRITE;
 /*!40000 ALTER TABLE `appslangs2` DISABLE KEYS */;
-INSERT INTO `appslangs2` VALUES (1000,'English','en-US',5),(1500,'French','en-US',5),(2000,'Spanish','en-US',3),(2500,'Constant Contact',NULL,5),(3000,'Adobe Photoshop',NULL,3),(3500,'Adobe InDesign',NULL,3),(4000,'Adobe Premiere',NULL,4),(4500,'WordPress',NULL,4),(5000,'Drupal',NULL,2),(5500,'Apache',NULL,5),(6000,'Microsoft IIS',NULL,2),(6500,'Microsoft SQL Server',NULL,3),(7000,'HTML5/CSS3',NULL,5),(7500,'PHP5',NULL,5),(8000,'MySQL',NULL,5),(8500,'Adobe ColdFusion',NULL,1),(1000,'Anglais','fr-CA',5),(1000,'English','en-CA',5),(1000,'Ingl&eacute;s','es-MX',5),(1000,'Anglais','fr-FR',5),(1000,'English','en-IE',5),(1500,'Fran&ccedil;ais','fr-CA',5),(1500,'French','en-CA',5),(1500,'Franc&eacute;s','es-MX',5),(1500,'Fran&ccedil;ais','fr-FR',5),(1500,'French','en-IE',5),(2000,'Espagnol','fr-CA',3),(2000,'Spanish','en-CA',3),(2000,'Espa&ntilde;ol','es-MX',3),(2000,'Espagnol','fr-FR',5),(2000,'Spanish','en-IE',5);
+INSERT INTO `appslangs2` VALUES (1000,'English','en-US',5),(1500,'French','en-US',5),(2000,'Spanish','en-US',3),(2500,'Constant Contact',NULL,5),(3000,'Adobe Photoshop',NULL,3),(3500,'Adobe InDesign',NULL,3),(4000,'Adobe Premiere',NULL,4),(4500,'WordPress',NULL,4),(5000,'Drupal',NULL,2),(5500,'Apache',NULL,5),(6000,'Microsoft IIS',NULL,2),(6500,'Microsoft SQL Server',NULL,3),(7000,'HTML5/CSS3',NULL,5),(7500,'PHP5',NULL,5),(8000,'MySQL',NULL,5),(8500,'Adobe ColdFusion',NULL,1),(1000,'Anglais','fr-CA',5),(1000,'English','en-CA',5),(1000,'Ingl&eacute;s','es-MX',5),(1000,'Anglais','fr-FR',5),(1000,'English','en-IE',5),(1500,'Fran&ccedil;ais','fr-CA',5),(1500,'French','en-CA',5),(1500,'Franc&eacute;s','es-MX',5),(1500,'Fran&ccedil;ais','fr-FR',5),(1500,'French','en-IE',5),(2000,'Espagnol','fr-CA',3),(2000,'Spanish','en-CA',3),(2000,'Espa&ntilde;ol','es-MX',3),(2000,'Espagnol','fr-FR',5),(2000,'Spanish','en-IE',5),(5250,'DotNetNuke',NULL,4),(4250,'Adobe After Effects',NULL,4);
 /*!40000 ALTER TABLE `appslangs2` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -49,4 +49,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2015-11-29 19:01:41
+-- Dump completed on 2015-12-15 19:19:06
