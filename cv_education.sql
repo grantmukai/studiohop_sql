@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.6.24, for osx10.8 (x86_64)
+-- MySQL dump 10.13  Distrib 5.7.9, for osx10.9 (x86_64)
 --
 -- Host: localhost    Database: cv
 -- ------------------------------------------------------
--- Server version	5.6.29
+-- Server version	5.6.30
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -41,7 +41,7 @@ CREATE TABLE `education` (
 
 LOCK TABLES `education` WRITE;
 /*!40000 ALTER TABLE `education` DISABLE KEYS */;
-INSERT INTO `education` VALUES (1000,'Boston University, College of Communication',' B.Sc.','Broadcast Journalism','Minor','French Language &amp; Literature','2006-09-02','2010-05-10','en-US'),(2000,'Universit&eacute; de Boston, &Eacute;cole de Communications','B.Sc.','journalisme t&eacute;l&eacute;vis&eacute;','Mineur','langue et litt&eacute;rature fran&ccedil;aise','2006-09-02','2010-05-10','fr-CA'),(3000,'Boston University, College of Communications',' B.Sc.','Broadcast Journalism','Minor','French Language &amp; Literature','2006-09-02','2010-05-10','en-CA'),(4000,'Universidad de Boston, Escuela de Comunicaciones','Baccillerato en Ciencias','Periodismo Televisado','Menor','Lengua y Literatura Francesa','2006-09-02','2010-05-10','es-MX'),(1000,'Universit&eacute; de Boston (Etats-Unis)','BAC+4','journalisme t&eacute;l&eacute;vis&eacute;','Sp&eacute;cialisation','langue et litt&eacute;rature fran&ccedil;aise','2006-09-02','2010-05-10','fr-FR'),(1000,'Boston University College of Communication','Bachelor of Science','Broadcast Journalism','Academic Minor','French Language &amp; Literature','2006-09-02','2010-05-10','en-IE'),(1000,'Universidad de Boston, Escuela de Comunicaciones','Bachillerato en Ciencias','Periodismo Televisado','Menor','Lengua y Literatura Francesa','2006-09-03','2010-05-10','es-PR'),(1000,'Universit&eacute; de Boston (Etats-Unis)','Dipl&ocirc;me de premier cycle','journalisme t&eacute;l&eacute;vis&eacute;','Sp&eacute;cialisation','langue et litt&eacute;rature fran&ccedil;aise','2006-09-02','2010-05-10','fr-CH');
+INSERT INTO `education` VALUES (1000,'Boston University, College of Communication',' B.Sc.','Broadcast Journalism','Minor','French Language &amp; Literature','2006-09-02','2010-05-10','en-US'),(2000,'Universit&eacute; de Boston, &Eacute;cole de Communications','B.Sc.','journalisme t&eacute;l&eacute;vis&eacute;','Mineur','langue et litt&eacute;rature fran&ccedil;aise','2006-09-02','2010-05-10','fr-CA'),(3000,'Boston University, College of Communications',' B.Sc.','Broadcast Journalism','Minor','French Language &amp; Literature','2006-09-02','2010-05-10','en-CA'),(4000,'Universidad de Boston, Escuela de Comunicaciones','Licenciatura de cuatro a&ntilde;os','Periodismo Televisado','Menor','Lengua y Literatura Francesa','2006-09-02','2010-05-10','es-MX'),(1000,'Universit&eacute; de Boston (Etats-Unis)','BAC+4','journalisme t&eacute;l&eacute;vis&eacute;','Sp&eacute;cialisation','langue et litt&eacute;rature fran&ccedil;aise','2006-09-02','2010-05-10','fr-FR'),(1000,'Boston University College of Communication','Bachelor of Science','Broadcast Journalism','Academic Minor','French Language &amp; Literature','2006-09-02','2010-05-10','en-IE'),(1000,'Universidad de Boston, Escuela de Comunicaciones','Bachillerato en Ciencias','Periodismo Televisado','Menor','Lengua y Literatura Francesa','2006-09-03','2010-05-10','es-PR'),(1000,'Universit&eacute; de Boston (Etats-Unis)','Dipl&ocirc;me de premier cycle','journalisme t&eacute;l&eacute;vis&eacute;','Sp&eacute;cialisation','langue et litt&eacute;rature fran&ccedil;aise','2006-09-02','2010-05-10','fr-CH');
 /*!40000 ALTER TABLE `education` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -54,4 +54,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-04-08 19:49:33
+-- Dump completed on 2016-04-21 19:01:05
