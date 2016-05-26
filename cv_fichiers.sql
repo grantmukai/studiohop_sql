@@ -38,7 +38,7 @@ CREATE TABLE `fichiers` (
 
 LOCK TABLES `fichiers` WRITE;
 /*!40000 ALTER TABLE `fichiers` DISABLE KEYS */;
-INSERT INTO `fichiers` VALUES ('web','esMX',200516,78,'Ko','PDF'),('pr','esMX',220516,49,'KB','pdf');
+INSERT INTO `fichiers` VALUES ('web','esMX',200516,78,'Ko','PDF'),('pr','esMX',220516,49,'KB','pdf'),('web','frFR',230516,3,'Mo','pdf'),('pr','frFR',250516,3,'Mo','pdf');
 /*!40000 ALTER TABLE `fichiers` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -51,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-05-22 12:08:05
+-- Dump completed on 2016-05-25 19:34:50
